@@ -39,7 +39,7 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="500dp"
             android:layout_weight="1"
             android:layout_gravity="center"
             android:gravity="center">
@@ -48,7 +48,7 @@
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_height"
                 android:text="Profile"
-                android:id="@+id/buttonProfile"
+                android:id="@+id/mainActivityProfileBTN"
                 android:background="@drawable/my_button"
                 android:textColor="#ffffff"
                 android:allowUndo="true"
@@ -59,7 +59,7 @@
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_height"
                 android:text="Calculators"
-                android:id="@+id/buttonCalc"
+                android:id="@+id/mainActivityCalcBTN"
                 android:textColor="#ffffff"
                 android:background="@drawable/my_button"
                 android:allowUndo="true"
@@ -70,16 +70,16 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="500dp"
             android:layout_weight="1"
-            android:layout_gravity="center"
+            android:layout_gravity="top|center"
             android:gravity="center">
 
             <Button
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_height"
                 android:text="Instructions"
-                android:id="@+id/buttonInstuctions"
+                android:id="@+id/mainActivityInstBTN"
                 android:textColor="#ffffff"
                 android:background="@drawable/my_button"
                 android:layout_margin="5dp"
@@ -89,7 +89,7 @@
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_height"
                 android:text="About"
-                android:id="@+id/buttonAbout"
+                android:id="@+id/mainActivityAboutBTN"
                 android:textColor="#ffffff"
                 android:background="@drawable/my_button"
                 android:layout_margin="5dp"
